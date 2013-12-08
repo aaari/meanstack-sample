@@ -1,0 +1,10 @@
+<div class="hero-unit">
+  <input type="text" ng-model="newtodo"><input type="button" value="add todo" ng-click="createTodo()">
+  <ul>
+      <li ng-repeat="todo in todolist">
+        <input type="checkbox"  ng-change="updateTodo(todo)" ng-model="todo.checked">
+        <span class="done-{{todo.checked}}">{{todo.data}}</span>
+        <input type="button" value="×" ng-click="deleteTodo(todo)">
+      </li>
+  </ul>
+</div>

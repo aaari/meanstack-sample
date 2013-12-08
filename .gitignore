@@ -1,0 +1,7 @@
+node_modules
+.tmp
+.sass-cache
+app/bower_components
+dist/bower_components
+app/ato_de_kesu
+.DS_Store
