@@ -4,11 +4,15 @@
 http://torub.github.io/meanstack.html
 
 ## How to use
+
 ```
 % npm install
 % bower install
-% mv bower_components app
-% node web.js
+```
 
 edit web.js (consumerKey, consumerSecret)
+
 ```
+% node web.js
+```
+
